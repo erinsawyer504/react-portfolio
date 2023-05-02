@@ -1,7 +1,7 @@
 import React from 'react'; 
 
 
-function About() {
+export default function About() {
     return(
     <section className="title">
       
@@ -18,4 +18,3 @@ function About() {
     </section> 
 )}
   
-export default About;
