@@ -1,7 +1,12 @@
 import React from 'react';
+import {
+    Segment
+  } from 'semantic-ui-react';
+  
 
 export default function Home() {
   return (
+    <Segment>
     <div>
       <h1>Home Page</h1>
       <p>
@@ -17,5 +22,6 @@ export default function Home() {
         fames ac ante ipsum primis in faucibus.
       </p>
     </div>
+    </Segment> 
   );
 }

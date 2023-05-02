@@ -1,7 +1,12 @@
 import React from 'react';
+import {
+    Segment
+  } from 'semantic-ui-react';
+  
 
 export default function Contact() {
   return (
+    <Segment>
     <div>
       <h1>Contact Page</h1>
       <p>
@@ -18,5 +23,6 @@ export default function Contact() {
         rhoncus. Etiam vel condimentum magna, quis tempor nulla.
       </p>
     </div>
+    </Segment>
   );
 }

@@ -1,20 +1,23 @@
-import React from 'react'; 
+import React from 'react';
+import {
+  Segment
+} from 'semantic-ui-react';
 
 
 export default function About() {
     return(
-    <section className="title">
+  <Segment>
       
       <div id="about-container">       
-      <p class="name">Erin Sawyer</p>
-      <p class="job">Full Stack Web Developer</p>
-      <h2 class="about">About Me</h2>
+      <p className="name">Erin Sawyer</p>
+      <p className="job">Full Stack Web Developer</p>
+      <h2 className="about">About Me</h2>
         <p>
         Intro paragraph about me
         Additional information about me
          </p>
 
       </div>
-    </section> 
+    </Segment> 
 )}
   

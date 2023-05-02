@@ -1,7 +1,12 @@
 import React from 'react';
+import {
+    Segment
+  } from 'semantic-ui-react';
+  
 
 export default function Resume() {
   return (
+    <Segment>
     <div>
       <h1>Resume Page</h1>
       <p>
@@ -20,5 +25,6 @@ export default function Resume() {
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
     </div>
+    </Segment> 
   );
 }
