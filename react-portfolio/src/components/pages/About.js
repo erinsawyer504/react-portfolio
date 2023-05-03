@@ -12,6 +12,7 @@ export default function About() {
       <p className="name">Erin Sawyer</p>
       <p className="job">Full Stack Web Developer</p>
       <h2 className="about">About Me</h2>
+      <img src="./assets/blogpic.png"></img>
         <p>
         Intro paragraph about me
         Additional information about me

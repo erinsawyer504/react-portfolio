@@ -17,11 +17,11 @@ export default function Project() {
             </Card.Content>
             <Card.Content extra>
               <div className="ui two buttons">
-                <a className="ui basic blue button" href={project.github}>
+                <a className="ui basic blue button" href={project.github} target="_blank" rel="noopener noreferrer">
                   <Icon name="github" />GitHub
                 </a>
                 {project.deployedapp && (
-                  <a className="ui basic green button" href={project.deployedapp}>
+                  <a className="ui basic green button" href={project.deployedapp} target="_blank" rel="noopener noreferrer">
                     <Icon name="external" />Live Demo
                   </a>
                 )}

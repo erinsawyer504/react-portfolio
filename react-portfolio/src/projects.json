@@ -1,12 +1,13 @@
 [
     {
-    "id": 1,
-    "name": "Movie Mania",
-    "image": "https://github.com/mia2380/Sneak-Attack-Project-1/raw/main/assets/images/screenshot-moviemania.PNG",
-    "github": "https://github.com/mia2380/Sneak-Attack-Project-1",
-    "deployedapp": "https://mia2380.github.io/Sneak-Attack-Project-1/",
-    "description": ""
+        "id": 7,
+        "name": "Code Quiz Challenge",
+        "image": "https://github.com/erinsawyer504/teal-code-quiz/blob/main/assets/images/code-quiz-screenshot.PNG?raw=true",
+        "github": "https://github.com/erinsawyer504/teal-code-quiz",
+        "deployedapp": "https://erinsawyer504.github.io/teal-code-quiz/",
+        "description": ""
     },
+
     {
     "id": 2,
     "name": "The Tech Blog",
@@ -32,30 +33,6 @@
     "description": ""
     },
     {
-    "id": 5,
-    "name": "Note Taker",
-    "image": "https://github.com/erinsawyer504/nifty-note-taker/raw/main/public/assets/images/catnote.PNG",
-    "github": "https://github.com/erinsawyer504/nifty-note-taker",
-    "deployedapp": "https://young-sea-74869.herokuapp.com/",
-    "description": ""
-    },
-    {
-    "id": 6,
-    "name": "Employee Tracker",
-    "image": "https://github.com/erinsawyer504/emerald-employee-tracker/raw/main/assets/employeeTracker.PNG",
-    "github": "https://github.com/erinsawyer504/emerald-employee-tracker",
-    "deployedapp": "https://drive.google.com/file/d/1tFD3GZCCvZJLEk451Qlv1TbmNlZKTe1i/view",
-    "description": ""
-    },
-    {
-    "id": 7,
-    "name": "Code Quiz Challenge",
-    "image": "https://github.com/erinsawyer504/teal-code-quiz/blob/main/assets/images/code-quiz-screenshot.PNG?raw=true",
-    "github": "https://github.com/erinsawyer504/teal-code-quiz",
-    "deployedapp": "https://erinsawyer504.github.io/teal-code-quiz/",
-    "description": ""
-    },
-    {
     "id": 8,
     "name": "Work Day Scheduler",
     "image": "https://github.com/erinsawyer504/green-work-day-scheduler/raw/main/assets/img/work-day-sch-photo.PNG",
@@ -70,5 +47,23 @@
     "github": "https://github.com/erinsawyer504/purple-password-generator",
     "deployedapp": "https://erinsawyer504.github.io/purple-password-generator/",
     "description": ""
+    },
+    {
+        "id": 1,
+        "name": "Movie Mania",
+        "image": "https://github.com/mia2380/Sneak-Attack-Project-1/raw/main/assets/images/screenshot-moviemania.PNG",
+        "github": "https://github.com/mia2380/Sneak-Attack-Project-1",
+        "deployedapp": "https://mia2380.github.io/Sneak-Attack-Project-1/",
+        "description": ""
+    },
+    {
+        "id": 5,
+        "name": "Note Taker",
+        "image": "https://github.com/erinsawyer504/nifty-note-taker/raw/main/public/assets/images/catnote.PNG",
+        "github": "https://github.com/erinsawyer504/nifty-note-taker",
+        "deployedapp": "https://young-sea-74869.herokuapp.com/",
+        "description": ""
     }
+    
+    
   ]
