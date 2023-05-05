@@ -1,4 +1,5 @@
 import React from 'react';
+import { validateEmail } from '../../utils/helper';
 import {
     Segment
   } from 'semantic-ui-react';

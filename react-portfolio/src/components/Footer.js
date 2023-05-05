@@ -25,7 +25,6 @@ function Footer() {
               </div>
             </List.Item>
           </List>
-          {/* include links to github & linkedin */}
         </Message>
       </Container>
     </Segment>

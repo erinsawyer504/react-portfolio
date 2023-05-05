@@ -8,11 +8,6 @@ function NavTabs({ currentPage, handlePageChange }) {
     return (
 <Menu pointing secondary>
   <Menu.Item
-    name='Home'
-    active={currentPage === 'Home'}
-    onClick={() => handlePageChange('Home')}
-  />
-  <Menu.Item
     name='About'
     active={currentPage === 'About'}
     onClick={() => handlePageChange('About')}

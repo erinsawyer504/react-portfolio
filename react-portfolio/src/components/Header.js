@@ -10,9 +10,9 @@ export default function Header() {
     <Segment>
     <section className="header">
     <div>
-        <p>
-            Header
-        </p>
+        <h1>
+            Erin Sawyer
+        </h1>
 
     </div>
     </section> 
