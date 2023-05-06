@@ -5,6 +5,7 @@ import {
     Message
   } from 'semantic-ui-react';
   
+  //TODO consider including your email address and phone number on the Contact page.
 
   export default function Contact() {
     const [name, setName] = useState('');

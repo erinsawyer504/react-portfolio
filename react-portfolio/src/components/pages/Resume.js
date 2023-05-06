@@ -2,11 +2,15 @@ import React from 'react';
 import {
     Segment
   } from 'semantic-ui-react';
+  import ResumePDF from '../../assets/erin_sawyer_resume1.pdf'
   
-
+//TODO need to add downloadable resume
 export default function Resume() {
   return (
     <Segment>
+        <div>
+      <a href={ResumePDF} download>Download PDF</a>
+    </div>
     <div>
       <h1>Resume</h1>
       <h2> Front End Proficiencies</h2>

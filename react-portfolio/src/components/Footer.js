@@ -2,6 +2,8 @@ import React from 'react';
 import { Message, Segment, Container, List } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 
+//TODO need to add stack over flow profile https://stackoverflow.com/users/21831081/sihaya504
+
 function Footer() {
   return (
     <Segment>
