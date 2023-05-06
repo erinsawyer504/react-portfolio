@@ -1,29 +1,62 @@
-import React from 'react';
-import { validateEmail } from '../../utils/helper';
+import React, { useState } from 'react';
 import {
-    Segment
+    Segment,
+    Form,
+    Message
   } from 'semantic-ui-react';
   
 
-export default function Contact() {
-  return (
-    <Segment>
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
-    </Segment>
-  );
-}
+  export default function Contact() {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [emailError, setEmailError] = useState(false);
+  
+    const handleEmailChange = (event) => {
+      const emailRegex = /\S+@\S+\.\S+/;
+      const validEmail = emailRegex.test(event.target.value);
+      setEmailError(!validEmail);
+      setEmail(event.target.value);
+    };
+  
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      if (!emailError && name && email && message) {
+        // handle form submission
+      }
+    };
+  
+    return (
+      <Segment>
+      <div className="contact-container">
+        <h2>Contact</h2>
+        <Form onSubmit={handleSubmit}>
+          <Form.Input
+            label="Name"
+            placeholder="Enter your name"
+            value={name}
+            required
+            onChange={(event) => setName(event.target.value)}
+          />
+          <Form.Input
+            label="Email"
+            placeholder="Enter your email address"
+            value={email}
+            required
+            error={emailError}
+            onChange={handleEmailChange}
+          />
+          {emailError && <Message error content="Please enter a valid email address" />}
+          <Form.TextArea
+            label="Message"
+            placeholder="Enter your message"
+            value={message}
+            required
+            onChange={(event) => setMessage(event.target.value)}
+          />
+          <Form.Button primary>Submit</Form.Button>
+        </Form>
+      </div>
+      </Segment>
+    );
+  }
