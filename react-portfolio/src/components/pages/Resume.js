@@ -1,19 +1,19 @@
 import React from 'react';
 import {
-    Segment
+    Segment,
+    Button
   } from 'semantic-ui-react';
   import ResumePDF from '../../assets/erin_sawyer_resume1.pdf'
   
-//TODO need to add downloadable resume
 export default function Resume() {
   return (
     <Segment>
-        <div>
-      <a href={ResumePDF} download>Download PDF</a>
-    </div>
-    <div>
-      <h1>Resume</h1>
-      <h2> Front End Proficiencies</h2>
+        <div> 
+          <h1>Resume</h1>
+          <button class="ui inverted violet button"><a href={ResumePDF} download>Download Resume PDF</a></button>
+        </div>
+        <div className="ui very padded segment">
+          <h2> Front End Proficiencies</h2>
                 <ul>
                     <li>
                         HTML
@@ -56,7 +56,7 @@ export default function Resume() {
                         API's (web, third-party, RESTful, server-side)
                     </li>
                 </ul>
-    </div>
+        </div>
     </Segment> 
   );
 }

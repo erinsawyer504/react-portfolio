@@ -5,6 +5,7 @@ import { Segment, Card, Icon } from 'semantic-ui-react';
 export default function Project() {
   return (
     <Segment>
+      <div className="ui very padded segment">
       <Card.Group>
         {projects.map((project) => (
           <Card key={project.id}>
@@ -30,6 +31,7 @@ export default function Project() {
           </Card>
         ))}
       </Card.Group>
+      </div>
     </Segment>
   );
 }

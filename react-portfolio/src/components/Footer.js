@@ -1,5 +1,5 @@
 import React from 'react';
-import { Message, Segment, Container, List } from 'semantic-ui-react';
+import { Message, Segment, Container, List, Icon, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 
 //TODO need to add stack over flow profile https://stackoverflow.com/users/21831081/sihaya504
@@ -7,28 +7,17 @@ import 'semantic-ui-css/semantic.min.css';
 function Footer() {
   return (
     <Segment>
-      <Container>
-        <Message>
-          <List divided horizontal size="medium">
-            <List.Item>
-              <div className="ui icon message">
-                <i className="github square icon"></i>
-                <List.Content>
-                  <List.Header>GitHub</List.Header>
-                </List.Content>
-              </div>
-            </List.Item>
-            <List.Item>
-              <div className="ui icon message">
-                <i className="linkedin icon"></i>
-                <List.Content>
-                  <List.Header>LinkedIn</List.Header>
-                </List.Content>
-              </div>
-            </List.Item>
-          </List>
-        </Message>
-      </Container>
+      <div className="ui very padded center aligned segment">
+        <a className="ui circular large black github icon button" href="https://github.com/erinsawyer504" target="_blank" rel="noopener noreferrer" >
+          <i className="github icon"></i>
+        </a>
+        <a className="ui circular large linkedin icon button" href="https://www.linkedin.com/in/erin-sawyer-a5476762/" target="_blank" rel="noopener noreferrer" >
+          <i class="linkedin icon"></i>
+        </a>
+        <a className="ui circular large orange stack overflow icon button" href="https://stackoverflow.com/users/21831081/sihaya504" target="_blank" rel="noopener noreferrer" >
+          <i className="stack overflow icon"></i>
+        </a>
+      </div>
     </Segment>
   );
 }

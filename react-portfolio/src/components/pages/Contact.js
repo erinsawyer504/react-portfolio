@@ -29,7 +29,7 @@ import {
   
     return (
       <Segment>
-      <div className="contact-container">
+      <div className="ui very padded segment">
         <h2>Contact</h2>
         <Form onSubmit={handleSubmit}>
           <Form.Input

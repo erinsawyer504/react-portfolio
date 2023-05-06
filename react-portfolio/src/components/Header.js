@@ -9,7 +9,7 @@ export default function Header() {
     return(
     <Segment>
     <section className="header">
-    <div>
+    <div className="ui very padded segment">
         <h1>
             Erin Sawyer
         </h1>
