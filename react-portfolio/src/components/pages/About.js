@@ -10,7 +10,7 @@ export default function About() {
         <Grid columns={3} stackable>
           <Grid.Row>
             <Grid.Column className="two wide column"> 
-              <Image className="ui middle aligned small circular spaced image" src="https://avatars.githubusercontent.com/u/117681165?s=400&u=07ceb9abff9f9fbc0292cec20e0b84e1e6012e65&v=4" alt="Erin Sawyer's profile picture" />
+              <Image className="ui middle aligned small circular spaced image" src="https://github.com/erinsawyer504/react-portfolio/blob/main/react-portfolio/src/assets/esawyer.jpg?raw=true" alt="Erin Sawyer's profile picture" />
             </Grid.Column>
             <Grid.Column className="eight wide column">
             <p>
