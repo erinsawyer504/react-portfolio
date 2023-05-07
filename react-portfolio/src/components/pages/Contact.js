@@ -32,7 +32,7 @@ import {
     return (
       <Segment basic>
         <div className="ui very padded segment">
-          <h2>Contact</h2>
+          <h2>Contact Me</h2>
           <Grid columns={2} stackable>
             <Grid.Row>
               <Grid.Column className="six wide column">

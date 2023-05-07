@@ -6,6 +6,7 @@ export default function Project() {
   return (
     <Segment basic>
       <div className="ui very padded segment">
+        <h2>My Projects</h2>
         <Card.Group>
           {projects.map((project) => (
             <Card key={project.id}>

@@ -10,7 +10,7 @@ export default function Resume() {
     <Segment basic>
         <div> 
           <h1>Resume</h1>
-          <button class="ui inverted violet button"><a href={ResumePDF} download>Download Resume PDF</a></button>
+          <button className="ui inverted violet button"><a href={ResumePDF} download>Download Resume PDF</a></button>
         </div>
         <div className="ui very padded segment">
           <h2> Front End Proficiencies</h2>

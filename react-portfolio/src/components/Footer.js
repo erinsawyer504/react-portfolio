@@ -10,7 +10,7 @@ export default function Footer() {
           <i className="github icon"></i>
         </a>
         <a className="ui circular large linkedin icon button" href="https://www.linkedin.com/in/erin-sawyer-a5476762/" target="_blank" rel="noopener noreferrer" >
-          <i class="linkedin icon"></i>
+          <i className="linkedin icon"></i>
         </a>
         <a className="ui circular large orange stack overflow icon button" href="https://stackoverflow.com/users/21831081/sihaya504" target="_blank" rel="noopener noreferrer" >
           <i className="stack overflow icon"></i>
