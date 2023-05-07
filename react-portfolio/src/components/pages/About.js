@@ -10,9 +10,9 @@ export default function About() {
         <Grid columns={3} stackable>
           <Grid.Row>
             <Grid.Column className="two wide column"> 
-              <Image className="ui middle aligned small circular spaced image" src="https://github.com/erinsawyer504/react-portfolio/blob/main/react-portfolio/src/assets/esawyer.jpg?raw=true" alt="Erin Sawyer's profile picture" />
+              <Image className="ui middle aligned big spaced image" src="https://github.com/erinsawyer504/react-portfolio/blob/main/react-portfolio/src/assets/esawyer1.jpg?raw=true" alt="Erin Sawyer's profile picture" />
             </Grid.Column>
-            <Grid.Column className="eight wide column">
+            <Grid.Column className="eight wide column" verticalAlign="middle">
             <p>
             I am a former educator, IT help desk agent, technical trainer, and currently a instructional designer turned beginner coding enthusiast. I enjoy learning new coding languages, 
             graphic design, and of course all things cat related.</p>
