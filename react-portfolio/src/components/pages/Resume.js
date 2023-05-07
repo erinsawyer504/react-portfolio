@@ -7,7 +7,7 @@ import {
   
 export default function Resume() {
   return (
-    <Segment>
+    <Segment basic>
         <div> 
           <h1>Resume</h1>
           <button class="ui inverted violet button"><a href={ResumePDF} download>Download Resume PDF</a></button>

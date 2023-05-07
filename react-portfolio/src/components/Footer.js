@@ -1,13 +1,11 @@
 import React from 'react';
-import { Message, Segment, Container, List, Icon, Button } from 'semantic-ui-react';
+import { Segment, Icon, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 
-//TODO need to add stack over flow profile https://stackoverflow.com/users/21831081/sihaya504
-
-function Footer() {
+export default function Footer() {
   return (
-    <Segment>
-      <div className="ui very padded center aligned segment">
+    <Segment basic>
+      <div className="ui very padded center aligned basic segment">
         <a className="ui circular large black github icon button" href="https://github.com/erinsawyer504" target="_blank" rel="noopener noreferrer" >
           <i className="github icon"></i>
         </a>
@@ -18,8 +16,12 @@ function Footer() {
           <i className="stack overflow icon"></i>
         </a>
       </div>
+      <style>{`
+        .ui.circular.icon.button:not(:last-child) {
+          margin-right: 25px;
+        }
+      `}</style>
     </Segment>
   );
 }
 
-export default Footer;
