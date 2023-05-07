@@ -10,7 +10,7 @@ export default function Project() {
         <h2>My Projects</h2>
         <Card.Group>
           {projects.map((project) => (
-            <Card key={project.id}>
+            <Card key={project.id} raised >
               <div className="image">
                 <img alt={project.name} src={project.image} />
               </div>

@@ -65,11 +65,14 @@ import {
                 </Form>
               </Grid.Column>
               <Grid.Column className="ten wide column">
+                <h3>Phone Number & Email</h3>
                 <p>
-                  <Icon name="text telephone" size="big"></Icon>
+                  <Icon name="text telephone" size="big" />
+                  <a href="tel:864-414-7960">(864) 414-7960</a>
                 </p>
                 <p>
-                  <Icon name="mail" size="big"></Icon>
+                  <Icon name="mail" size="big" />
+                  <a href="mailto:erinsawyer504@gmail.com">erinsawyer504@gmail.com</a>
                 </p>
               </Grid.Column>
             </Grid.Row>
