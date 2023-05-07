@@ -4,8 +4,9 @@ import { Segment, Card, Icon } from "semantic-ui-react";
 
 export default function Project() {
   return (
+    <div style={{ backgroundColor: '#2d283e'}}>
     <Segment basic>
-      <div className="ui very padded segment">
+      <div className="ui very padded segment" style={{ backgroundColor: '#d1d7e0'}}>
         <h2>My Projects</h2>
         <Card.Group>
           {projects.map((project) => (
@@ -45,5 +46,6 @@ export default function Project() {
         </Card.Group>
       </div>
     </Segment>
+    </div>
   );
 }

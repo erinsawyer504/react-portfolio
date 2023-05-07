@@ -7,12 +7,12 @@ import {
   
 export default function Resume() {
   return (
+    <div style={{ backgroundColor: '#2d283e'}}>
     <Segment basic>
-        <div> 
+    <div className="ui very padded segment" style={{ backgroundColor: '#d1d7e0'}}>
           <h1>Resume</h1>
           <button className="ui inverted violet button"><a href={ResumePDF} download>Download Resume PDF</a></button>
-        </div>
-        <div className="ui very padded segment">
+
           <h2> Front End Proficiencies</h2>
                 <ul>
                     <li>
@@ -56,7 +56,8 @@ export default function Resume() {
                         API's (web, third-party, RESTful, server-side)
                     </li>
                 </ul>
-        </div>
+    </div>
     </Segment> 
+    </div>
   );
 }

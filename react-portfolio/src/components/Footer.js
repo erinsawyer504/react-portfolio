@@ -4,6 +4,7 @@ import 'semantic-ui-css/semantic.min.css';
 
 export default function Footer() {
   return (
+    <div style={{ backgroundColor: '#2d283e'}}>
     <Segment basic>
       <div className="ui very padded center aligned basic segment">
         <a className="ui circular large black github icon button" href="https://github.com/erinsawyer504" target="_blank" rel="noopener noreferrer" >
@@ -22,6 +23,7 @@ export default function Footer() {
         }
       `}</style>
     </Segment>
+    </div>
   );
 }
 

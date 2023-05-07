@@ -3,8 +3,9 @@ import { Segment, Grid, Image } from 'semantic-ui-react';
 
 export default function About() {
   return (
+    <div style={{ backgroundColor: '#2d283e'}}>
     <Segment basic>
-      <div className="ui very padded segment">
+      <div className="ui very padded segment" style={{ backgroundColor: '#d1d7e0'}}>
         <h2 className="about">About Me</h2>
         <Grid columns={2} stackable>
           <Grid.Row>
@@ -20,5 +21,6 @@ export default function About() {
         </Grid>
       </div>
     </Segment>
+    </div>
   );
 }

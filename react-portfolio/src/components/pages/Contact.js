@@ -30,8 +30,9 @@ import {
     };
   
     return (
+      <div style={{ backgroundColor: '#2d283e'}}>
       <Segment basic>
-        <div className="ui very padded segment">
+        <div className="ui very padded segment" style={{ backgroundColor: '#d1d7e0'}}>
           <h2>Contact Me</h2>
           <Grid columns={2} stackable>
             <Grid.Row>
@@ -75,5 +76,6 @@ import {
           </Grid>
         </div>
       </Segment>
+      </div>
     );
   }
