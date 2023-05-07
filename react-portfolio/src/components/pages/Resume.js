@@ -40,7 +40,7 @@ export default function Resume() {
                         React.js
                     </li>
                     <li>
-                        Framework (Bootstrap, TailwindCss, SemanticUI)
+                        Framework (Bootstrap, TailwindCSS, SemanticUI)
                     </li>
                     <li>
                         Responsive Web Design
