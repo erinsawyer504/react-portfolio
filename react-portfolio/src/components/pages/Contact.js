@@ -3,7 +3,8 @@ import {
     Segment,
     Form,
     Message,
-    Grid
+    Grid,
+    Icon
   } from 'semantic-ui-react';
   
   //TODO consider including your email address and phone number on the Contact page.
@@ -63,7 +64,12 @@ import {
                 </Form>
               </Grid.Column>
               <Grid.Column className="ten wide column">
-                <p>Phone</p>
+                <p>
+                  <Icon name="text telephone" size="big"></Icon>
+                </p>
+                <p>
+                  <Icon name="mail" size="big"></Icon>
+                </p>
               </Grid.Column>
             </Grid.Row>
           </Grid>
