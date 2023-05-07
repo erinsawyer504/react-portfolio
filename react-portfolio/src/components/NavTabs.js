@@ -4,7 +4,7 @@ import { Menu } from 'semantic-ui-react';
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div style={{ backgroundColor: '#2d283e' }}>
-      <Menu pointing secondary>
+      <Menu pointing secondary  size="large">
         <Menu.Item
           name='About'
           active={currentPage === 'About'}

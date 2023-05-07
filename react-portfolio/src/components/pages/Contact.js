@@ -4,11 +4,10 @@ import {
     Form,
     Message,
     Grid,
-    Icon
+    Icon,
+    Button
   } from 'semantic-ui-react';
   
-  //TODO consider including your email address and phone number on the Contact page.
-
   export default function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -67,11 +66,25 @@ import {
               <Grid.Column className="ten wide column">
                 <h3>Phone Number & Email</h3>
                 <p>
-                  <Icon name="text telephone" size="big" />
+                  <Button animated>
+                    <Button.Content visible>
+                      <Icon name="text telephone" size="big" />
+                    </Button.Content>
+                    <Button.Content hidden>
+                      Call/Text <Icon name='arrow right' /> 
+                    </Button.Content>
+                  </Button>
                   <a href="tel:864-414-7960">(864) 414-7960</a>
                 </p>
                 <p>
-                  <Icon name="mail" size="big" />
+                  <Button animated>
+                    <Button.Content visible>
+                      <Icon name="mail" size="big" />
+                    </Button.Content>
+                    <Button.Content hidden>
+                      Email <Icon name='arrow right' />
+                    </Button.Content>
+                  </Button>
                   <a href="mailto:erinsawyer504@gmail.com">erinsawyer504@gmail.com</a>
                 </p>
               </Grid.Column>

@@ -1,7 +1,8 @@
 import React from 'react';
 import {
     Segment,
-    Button
+    Button,
+    Icon
   } from 'semantic-ui-react';
   import ResumePDF from '../../assets/erin_sawyer_resume1.pdf'
   
@@ -10,10 +11,18 @@ export default function Resume() {
     <div style={{ backgroundColor: '#2d283e'}}>
     <Segment basic>
     <div className="ui very padded segment" style={{ backgroundColor: '#d1d7e0'}}>
-          <h1>Resume</h1>
-          <button className="ui inverted violet button"><a href={ResumePDF} download>Download Resume PDF</a></button>
+        <h1>Resume</h1>
+            <Button animated="vertical">
+                <Button.Content hidden><a href={ResumePDF} download>Download PDF</a></Button.Content>
+                <Button.Content visible>
+                    <a href={ResumePDF} download>
+                        <Icon name="file pdf" bordered inverted color="purple" size="large">
+                        </Icon>
+                    </a>
+                </Button.Content>
+            </Button>
 
-          <h2> Front End Proficiencies</h2>
+            <h2> Front End Proficiencies</h2>
                 <ul>
                     <li>
                         HTML
@@ -56,7 +65,7 @@ export default function Resume() {
                         API's (web, third-party, RESTful, server-side)
                     </li>
                 </ul>
-    </div>
+        </div>
     </Segment> 
     </div>
   );
