@@ -22,7 +22,7 @@ export default function Resume() {
                 </Button.Content>
             </Button>
 
-            <h2> Front End Proficiencies</h2>
+            <h2>Front End Proficiencies</h2>
                 <ul>
                     <li>
                         HTML
@@ -62,7 +62,7 @@ export default function Resume() {
                         NoSQL (MongoDB, Mongoose)
                     </li>
                     <li>
-                        API's (web, third-party, RESTful, server-side)
+                        APIs (web, third-party, RESTful, server-side)
                     </li>
                 </ul>
         </div>
