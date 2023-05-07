@@ -5,7 +5,7 @@
         "image": "https://github.com/erinsawyer504/teal-code-quiz/blob/main/assets/images/code-quiz-screenshot.PNG?raw=true",
         "github": "https://github.com/erinsawyer504/teal-code-quiz",
         "deployedapp": "https://erinsawyer504.github.io/teal-code-quiz/",
-        "description": ""
+        "description": "This project uses javascript and local storage to create a coding quiz. The user will answer the questions and then at the end, they can enter in their initials so their high score will display on the screen. There is also a timer and the game will end if the timer reaches 0. Also, if the player answers a question incorrectly, it deducts from from the timer."
     },
 
     {
@@ -14,7 +14,7 @@
     "image": "https://github.com/erinsawyer504/techno-tech-blog/raw/main/public/assets/blogpic.PNG",
     "github": "https://github.com/erinsawyer504/techno-tech-blog",
     "deployedapp": "https://immense-anchorage-45274.herokuapp.com/",
-    "description": ""
+    "description": "This project is a blog where anyone can view posts, but in order to create posts or add comments the user can sign into their account or sign up if they do not have an account. The user can also view/edit/delete their own posts; as well as, add comments to other people's posts. This project uses node.js, express.js, sequelize, mysql, and handlebars to create the blog!"
     },
     {
     "id": 3,
@@ -22,7 +22,7 @@
     "image": "https://github.com/erinsawyer504/blue-weather-dashboard/raw/main/assets/images/blue_weather_app.PNG",
     "github": "https://github.com/erinsawyer504/blue-weather-dashboard",
     "deployedapp": "https://erinsawyer504.github.io/blue-weather-dashboard/",
-    "description": ""
+    "description": "This challenge was to work with serverside APIs, specifically openweathermap.org's."
     },
     {
     "id": 4,
@@ -30,7 +30,7 @@
     "image": "https://github.com/erinsawyer504/team-profile-generator/raw/main/assets/teamprofile.PNG",
     "github": "https://github.com/erinsawyer504/team-profile-generator",
     "deployedapp": "https://github.com/erinsawyer504/team-profile-generator/blob/main/dist/index.html",
-    "description": ""
+    "description": "This project takes a user's input on their team and turns it into a profile of their team. It asks for the Manager's name along with their id#, email address, and office phone number. The application then asks if you would like to add an Engineer or an Intern to your team. "
     },
     {
     "id": 8,
@@ -38,7 +38,7 @@
     "image": "https://github.com/erinsawyer504/green-work-day-scheduler/raw/main/assets/img/work-day-sch-photo.PNG",
     "github": "https://github.com/erinsawyer504/green-work-day-scheduler",
     "deployedapp": "https://erinsawyer504.github.io/green-work-day-scheduler/",
-    "description": ""
+    "description": "In this app, I worked with jQuery and localstorage to create a daily planner.  Also by using addClass and removeClass, the planner will change colors to show what has already passed, what is current, and what is for the future."
     },
 {
     "id": 9,
@@ -46,7 +46,7 @@
     "image": "https://github.com/erinsawyer504/purple-password-generator/raw/main/assets/images/purplePasswordGenerator.PNG",
     "github": "https://github.com/erinsawyer504/purple-password-generator",
     "deployedapp": "https://erinsawyer504.github.io/purple-password-generator/",
-    "description": ""
+    "description": "One of the first projects completed by using javascript to randomly create a password.  The app asks for user input as to how long they want the password to be, if they want symbols, numbers, and lower case/capital letters in the random password."
     },
     {
         "id": 1,
@@ -54,7 +54,7 @@
         "image": "https://github.com/mia2380/Sneak-Attack-Project-1/raw/main/assets/images/screenshot-moviemania.PNG",
         "github": "https://github.com/mia2380/Sneak-Attack-Project-1",
         "deployedapp": "https://mia2380.github.io/Sneak-Attack-Project-1/",
-        "description": ""
+        "description": "Our project allows a user to pick a movie to watch by pulling data from two different APIs. Users are first able to search for a movie by name or click on the genre to get a random movie. If they select a film, it will pull general information, a poster, and the streaming location for the movie."
     },
     {
         "id": 5,
@@ -62,7 +62,7 @@
         "image": "https://github.com/erinsawyer504/nifty-note-taker/raw/main/public/assets/images/catnote.PNG",
         "github": "https://github.com/erinsawyer504/nifty-note-taker",
         "deployedapp": "https://young-sea-74869.herokuapp.com/",
-        "description": ""
+        "description": "This app keeps track of any notes or a to-do list you have to do for the day. You can type in the title and description of the notes and then press a save icon for it to be saved to the left hand side of the page. If you have multiple tasks, you can click on each task to show the entire desctiption on the right side of the page again. Once you finish a task, you can delete it by pressing the trashcan icon."
     }
     
     
