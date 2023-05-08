@@ -20,7 +20,7 @@ Clone the repo into your vs code, and be sure to install any dependencies needed
 
 ## Usage
 Here is a screenshot that shows how the app runs
-![Demo of React Portfolio](./assets/employeeTracker.PNG)
+![Demo of React Portfolio](https://github.com/erinsawyer504/react-portfolio/blob/main/react-portfolio/src/assets/esawyerportfolio.PNG?raw=true)
 
 ## License
 This repository is not covered under any license.
