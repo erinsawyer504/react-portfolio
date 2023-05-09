@@ -9,44 +9,44 @@
     },
 
     {
-    "id": 2,
-    "name": "The Tech Blog",
-    "image": "https://github.com/erinsawyer504/techno-tech-blog/raw/main/public/assets/blogpic.PNG",
-    "github": "https://github.com/erinsawyer504/techno-tech-blog",
-    "deployedapp": "https://immense-anchorage-45274.herokuapp.com/",
-    "description": "This project is a blog where anyone can view posts, but in order to create posts or add comments the user can sign into their account or sign up if they do not have an account. The user can also view/edit/delete their own posts; as well as, add comments to other people's posts. This project uses node.js, express.js, sequelize, mysql, and handlebars to create the blog!"
+        "id": 2,
+        "name": "The Tech Blog",
+        "image": "https://github.com/erinsawyer504/techno-tech-blog/raw/main/public/assets/blogpic.PNG",
+        "github": "https://github.com/erinsawyer504/techno-tech-blog",
+        "deployedapp": "https://immense-anchorage-45274.herokuapp.com/",
+        "description": "This project is a blog where anyone can view posts, but in order to create posts or add comments the user can sign into their account or sign up if they do not have an account. The user can also view/edit/delete their own posts; as well as, add comments to other people's posts. This project uses node.js, express.js, sequelize, mysql, and handlebars to create the blog!"
     },
     {
-    "id": 3,
-    "name": "The Weather Dashboard",
-    "image": "https://github.com/erinsawyer504/blue-weather-dashboard/raw/main/assets/images/blue_weather_app.PNG",
-    "github": "https://github.com/erinsawyer504/blue-weather-dashboard",
-    "deployedapp": "https://erinsawyer504.github.io/blue-weather-dashboard/",
-    "description": "This challenge was to work with serverside APIs, specifically openweathermap.org's."
+        "id": 3,
+        "name": "The Weather Dashboard",
+        "image": "https://github.com/erinsawyer504/blue-weather-dashboard/raw/main/assets/images/blue_weather_app.PNG",
+        "github": "https://github.com/erinsawyer504/blue-weather-dashboard",
+        "deployedapp": "https://erinsawyer504.github.io/blue-weather-dashboard/",
+        "description": "This challenge was to work with serverside APIs, specifically openweathermap.org's."
     },
     {
-    "id": 4,
-    "name": "Team Profile Generator",
-    "image": "https://github.com/erinsawyer504/team-profile-generator/raw/main/assets/teamprofile.PNG",
-    "github": "https://github.com/erinsawyer504/team-profile-generator",
-    "deployedapp": "https://github.com/erinsawyer504/team-profile-generator/blob/main/dist/index.html",
-    "description": "This project takes a user's input on their team and turns it into a profile of their team. It asks for the Manager's name along with their id#, email address, and office phone number. The application then asks if you would like to add an Engineer or an Intern to your team. "
+        "id": 4,
+        "name": "Team Profile Generator",
+        "image": "https://github.com/erinsawyer504/team-profile-generator/raw/main/assets/teamprofile.PNG",
+        "github": "https://github.com/erinsawyer504/team-profile-generator",
+        "deployedapp": "https://github.com/erinsawyer504/team-profile-generator/blob/main/dist/index.html",
+        "description": "This project takes a user's input on their team and turns it into a profile of their team. It asks for the Manager's name along with their id#, email address, and office phone number. The application then asks if you would like to add an Engineer or an Intern to your team. "
     },
     {
-    "id": 8,
-    "name": "Work Day Scheduler",
-    "image": "https://github.com/erinsawyer504/green-work-day-scheduler/raw/main/assets/img/work-day-sch-photo.PNG",
-    "github": "https://github.com/erinsawyer504/green-work-day-scheduler",
-    "deployedapp": "https://erinsawyer504.github.io/green-work-day-scheduler/",
-    "description": "In this app, I worked with jQuery and localstorage to create a daily planner.  Also by using addClass and removeClass, the planner will change colors to show what has already passed, what is current, and what is for the future."
+        "id": 8,
+        "name": "Work Day Scheduler",
+        "image": "https://github.com/erinsawyer504/green-work-day-scheduler/raw/main/assets/img/work-day-sch-photo.PNG",
+        "github": "https://github.com/erinsawyer504/green-work-day-scheduler",
+        "deployedapp": "https://erinsawyer504.github.io/green-work-day-scheduler/",
+        "description": "In this app, I worked with jQuery and localstorage to create a daily planner.  Also by using addClass and removeClass, the planner will change colors to show what has already passed, what is current, and what is for the future."
     },
-{
-    "id": 9,
-    "name": "Password Generator",
-    "image": "https://github.com/erinsawyer504/purple-password-generator/raw/main/assets/images/purplePasswordGenerator.PNG",
-    "github": "https://github.com/erinsawyer504/purple-password-generator",
-    "deployedapp": "https://erinsawyer504.github.io/purple-password-generator/",
-    "description": "One of the first projects completed by using javascript to randomly create a password.  The app asks for user input as to how long they want the password to be, if they want symbols, numbers, and lower case/capital letters in the random password."
+    {
+        "id": 9,
+        "name": "Password Generator",
+        "image": "https://github.com/erinsawyer504/purple-password-generator/raw/main/assets/images/purplePasswordGenerator.PNG",
+        "github": "https://github.com/erinsawyer504/purple-password-generator",
+        "deployedapp": "https://erinsawyer504.github.io/purple-password-generator/",
+        "description": "One of the first projects completed by using javascript to randomly create a password.  The app asks for user input as to how long they want the password to be, if they want symbols, numbers, and lower case/capital letters in the random password."
     },
     {
         "id": 1,
@@ -64,6 +64,6 @@
         "deployedapp": "https://young-sea-74869.herokuapp.com/",
         "description": "This app keeps track of any notes or a to-do list you have to do for the day. You can type in the title and description of the notes and then press a save icon for it to be saved to the left hand side of the page. If you have multiple tasks, you can click on each task to show the entire desctiption on the right side of the page again. Once you finish a task, you can delete it by pressing the trashcan icon."
     }
+
     
-    
-  ]
+]

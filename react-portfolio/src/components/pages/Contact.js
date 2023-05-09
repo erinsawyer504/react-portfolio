@@ -14,6 +14,7 @@ import {
     const [message, setMessage] = useState('');
     const [emailError, setEmailError] = useState(false);
   
+  // function to validate that the email entered is valid
     const handleEmailChange = (event) => {
       const emailRegex = /\S+@\S+\.\S+/;
       const validEmail = emailRegex.test(event.target.value);
@@ -33,6 +34,7 @@ import {
       <Segment basic>
         <div className="ui very padded segment" style={{ backgroundColor: '#d1d7e0'}}>
           <h2>Contact Me</h2>
+          {/* Assigning 2 columns to the grid */}
           <Grid columns={2} stackable>
             <Grid.Row>
               <Grid.Column className="six wide column">
@@ -41,6 +43,7 @@ import {
                     label="Name"
                     placeholder="Enter your name"
                     value={name}
+                    // making the entry required
                     required
                     onChange={(event) => setName(event.target.value)}
                   />
