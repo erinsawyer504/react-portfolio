@@ -5,7 +5,7 @@ This project is a personal portfolio utilizing react.  It show cases information
 
 ## Links
 - [github repo](https://github.com/erinsawyer504/react-portfolio)
-- [Deployed Appo](https://erinsawyer504.github.io/react-portfolio/)
+- [Deployed App](https://erinsawyer504.github.io/react-portfolio/)
 
 ## Table of Contents
 - [Installation](#installation)  
