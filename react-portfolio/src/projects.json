@@ -1,5 +1,13 @@
 [
     {
+        "id": 10,
+        "name": "The Daily Clawsmic",
+        "image": "https://user-images.githubusercontent.com/115678318/238496050-ee06205b-4cdb-49dd-b8a1-fae15fa9f783.png",
+        "github": "https://github.com/Catalystix/Clawesome-Crew",
+        "deployedapp": "https://cosmic-gallary.herokuapp.com/",
+        "description": "The Daily Clawsmic interacts with various NASA APIs to showcase a picture of the day, provide many Mars Rover (Curiosity) photos, and supplies articles and links for NASA-developed technologies, available for commercial and non-commerical use. With this web application the user has the ability to sign up and login in order to save favorites. Those favorites will stay on on the user's personalized dashboard until they're ready to discard them. "
+    },
+    {
         "id": 7,
         "name": "Code Quiz Challenge",
         "image": "https://github.com/erinsawyer504/teal-code-quiz/blob/main/assets/images/code-quiz-screenshot.PNG?raw=true",
